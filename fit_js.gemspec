@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "The javascript library for the Garmin FIT file format"
   s.authors     = ["Justin Dunn"]
   s.email       = "axeouse@gmail.com"
-  s.files       = ["lib/rails.rb"]
+  s.files       = ["lib/fitjs.rb"]
   s.homepage    =
     "https://rubygems.org/gems/fit_js"
   s.license       = "MIT"
