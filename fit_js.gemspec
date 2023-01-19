@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "fit_js"
-  s.version     = "0.94.5"
+  s.version     = "0.94.6"
   s.summary     = "Javascript Wrapper for FIT Files"
   s.description = "The javascript library for the Garmin FIT file format"
   s.authors     = ["Justin Dunn"]
@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     "https://rubygems.org/gems/fit_js"
   s.license       = "MIT"
-  s.add_runtime_dependency 'fit_js', '~> 0.94.5', '>= 0.94.5'
+  s.add_runtime_dependency 'fit_js-rails', '~> 0.94.5', '>= 0.94.5'
 end
