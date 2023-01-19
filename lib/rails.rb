@@ -1,6 +1,6 @@
-require "fit_js/rails/version"
+require "fitjs/rails/version"
 
-module FitJs
+module Fitjs
   module Rails
     class Engine < ::Rails::Engine
     end

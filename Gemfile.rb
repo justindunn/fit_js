@@ -1,1 +1,1 @@
-gem "fit_js", path: "../fit_js"
+gem "fitjs", path: "../fitjs"
