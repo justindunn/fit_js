@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "fit_js"
-  s.version     = "0.94.0"
+  s.version     = "0.94.1"
   s.summary     = "Javascript Wrapper for FIT Files"
   s.description = "The javascript library for the Garmin FIT file format"
   s.authors     = ["Justin Dunn"]

@@ -1,5 +1,5 @@
 module FitJs
   module Rails
-    VERSION = "0.94.0"
+    VERSION = "0.94.1"
   end
 end
