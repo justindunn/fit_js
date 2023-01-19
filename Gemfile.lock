@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    fit_js (0.94.2)
+
+GEM
+  specs:
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  fit_js!
+
+BUNDLED WITH
+   2.3.16
