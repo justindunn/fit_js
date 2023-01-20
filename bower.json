@@ -1,0 +1,24 @@
+{
+  "name": "fitjs",
+  "homepage": "https://github.com/justindunn/fit_js",
+  "authors": [
+    "Justin Dunn"
+  ],
+  "description": "Fitjs rails fit file js library.",
+  "moduleType": "globals",
+  "main": [
+    "assets/javascripts/bootstrap.js"
+  ],
+  "keywords": [
+    "fitjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "lib",
+    "tasks",
+    "*.gemspec",
+    "Rakefile",
+    "Gemfile"
+  ]
+}

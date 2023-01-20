@@ -1,4 +1,6 @@
-# frozen_string_literal: true
+require 'bundler/gem_tasks'
 
-require "bundler/gem_tasks"
-task default: %i[]
+lib_path = File.join(__dir__, 'lib')
+$:.unshift(lib_path) unless $:.include?(lib_path)
+
+load './tasks/bower.rake'
