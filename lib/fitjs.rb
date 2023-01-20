@@ -43,7 +43,5 @@ module Fitjs
       Sprockets.append_path(javascripts_path)
     end
   end
-end
-
 Fitjs.load!
 end
