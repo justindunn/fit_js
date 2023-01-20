@@ -1,1 +1,4 @@
-gem "fit_js", path: "../fitjs"
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in sweetalert.gemspec
+gemspec

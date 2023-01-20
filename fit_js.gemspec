@@ -13,13 +13,11 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
 
-  # Dummy Rails app dependencies
-  s.add_development_dependency 'actionpack', '>= 4.1.5'
-  s.add_development_dependency 'activesupport', '>= 4.1.5'
-  s.add_development_dependency 'json', '>= 1.8.1'
-  s.add_development_dependency 'slim-rails'
-  s.add_development_dependency 'uglifier'
+  s.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  s.bindir        = "exe"
+  s.executables   = s.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'autoprefixer-rails', '~> 9.1', '>= 9.1.0'
-  s.files      = `git ls-files`.split("\n")
+  s.add_development_dependency "bundler", "~> 1.8"
+  s.add_development_dependency "rake", "~> 10.0"
 end
